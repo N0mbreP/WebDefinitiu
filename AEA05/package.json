@@ -1,0 +1,28 @@
+{
+  "name": "aea05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N0mbreP/AEA05--Sistema-complet-amb-autenticaci-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N0mbreP/AEA05--Sistema-complet-amb-autenticaci-/issues"
+  },
+  "homepage": "https://github.com/N0mbreP/AEA05--Sistema-complet-amb-autenticaci-#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "serve": "^14.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
