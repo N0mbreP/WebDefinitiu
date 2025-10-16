@@ -4,6 +4,8 @@ import {PORT, SECRET_JWT_KEY} from './config.js';
 import { UserRepository } from './user-repository.js';
 import jwt from 'jsonwebtoken'
 import cookieParser from 'cookie-parser';
+import userRoutes from './routes/users.js';
+
 
 const app= express();
 app.use(express.json());
@@ -31,6 +33,7 @@ app.use((req,res,next)=>{
 //app.use('/cards', cardRoutes);
 //app.use('/clothes', clotheRoutes);
 //app.use('/figures', figureRoutes);
+app.use('/users', userRoutes);
 
 app.get('/',(req,res)=>{
     const {user}=req.session
